@@ -1,0 +1,4 @@
+# https://developers.home-assistant.io/docs/add-ons/repository#repository-configuration
+name: Qobuz-connect add-on repository
+url: 'https://github.com/hermzz/ha-qobuz-connect'
+maintainer: Hermann Käser <hermann.kaser@gmail.com>

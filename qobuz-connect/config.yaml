@@ -1,0 +1,15 @@
+---
+name: Qobuz Connect
+version: dev
+slug: qobuz
+description: Play Qobuz music on your Home Assistant device
+url: https://github.com/hermzz/ha-qobuz-connect
+arch:
+  - aarch64
+  - amd64
+host_network: true
+audio: true
+init: false
+schema:
+  username: str?
+  password: password?

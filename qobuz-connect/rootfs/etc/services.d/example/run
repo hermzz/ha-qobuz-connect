@@ -1,0 +1,17 @@
+#!/usr/bin/with-contenv bashio
+# ==============================================================================
+# Start the example service
+# s6-overlay docs: https://github.com/just-containers/s6-overlay
+# ==============================================================================
+
+username=$(bashio::config 'username')
+password=$(bashio::config 'password')
+
+qobuz-player config username "${username}"
+qobuz-player config password "${password}"
+
+options+=(-d)
+options+=(--disable-mpris)
+options+=(--connect)
+
+exec qobuz-player open "${options[@]}"
