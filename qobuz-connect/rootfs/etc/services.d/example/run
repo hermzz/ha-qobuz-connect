@@ -7,11 +7,11 @@
 username=$(bashio::config 'username')
 password=$(bashio::config 'password')
 
-qobuz-player config username "${username}"
-qobuz-player config password "${password}"
+/usr/bin/qobuz-player config username "${username}"
+/usr/bin/qobuz-player config password "${password}"
 
 options+=(-d)
 options+=(--disable-mpris)
 options+=(--connect)
 
-exec qobuz-player open "${options[@]}"
+exec /usr/bin/qobuz-player open "${options[@]}"

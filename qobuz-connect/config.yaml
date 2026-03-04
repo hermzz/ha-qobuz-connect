@@ -11,6 +11,6 @@ host_network: true
 audio: true
 init: false
 schema:
-  username: str?
-  password: password?
+  username: str
+  password: password
 image: "ghcr.io/hermzz/qobuz-connect-addon-{arch}"
