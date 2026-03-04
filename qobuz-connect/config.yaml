@@ -1,7 +1,7 @@
 ---
 name: Qobuz Connect
 version: dev
-slug: qobuz
+slug: qobuz-connect
 description: Play Qobuz music on your Home Assistant device
 url: https://github.com/hermzz/ha-qobuz-connect
 arch:
