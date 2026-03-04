@@ -13,3 +13,4 @@ init: false
 schema:
   username: str?
   password: password?
+image: "ghcr.io/hermzz/qobuz-connect-addon-{arch}"
