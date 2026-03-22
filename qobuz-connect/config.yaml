@@ -10,6 +10,8 @@ arch:
 host_network: true
 audio: true
 init: false
+options:
+  name: Home Assistant
 schema:
   username: str
   password: password

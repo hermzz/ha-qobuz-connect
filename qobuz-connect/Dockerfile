@@ -2,7 +2,7 @@
 ARG BUILD_FROM
 FROM $BUILD_FROM
 
-ARG QOBUZ_VERSION="v0.7.1"
+ARG QOBUZ_VERSION="v0.7.5-pre-1"
 
 RUN apt update && apt install -y --no-install-recommends libasound2 libasound2-plugins
 
