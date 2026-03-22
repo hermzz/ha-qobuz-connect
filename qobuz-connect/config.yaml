@@ -13,6 +13,7 @@ init: false
 options:
   name: Home Assistant
 schema:
+  name: str
   username: str
   password: password
 image: "ghcr.io/hermzz/qobuz-connect-addon-{arch}"
